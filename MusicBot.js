@@ -1,5 +1,5 @@
 const { Client, Util } = require('discord.js');
-const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./config');
+const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./config.js');
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 
